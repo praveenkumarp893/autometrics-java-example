@@ -1,9 +1,0 @@
-com/example/demo/exceptions/BookNotFoundException.class
-com/example/demo/exceptions/BookIdMismatchException.class
-com/example/demo/persistence/model/Book.class
-com/example/demo/persistence/repo/BookRepository.class
-com/example/demo/controllers/SimpleController.class
-com/example/demo/security/SecurityConfig.class
-com/example/demo/SimpleSpringApplication.class
-com/example/demo/exceptions/RestExceptionHandler.class
-com/example/demo/controllers/BookController.class
