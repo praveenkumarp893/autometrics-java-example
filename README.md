@@ -1,10 +1,13 @@
 # Simple Spring Boot Books API
 
-Simple Books API with Spring Boot initial startup tutorial!!
+Basic autometrics integration in spring boot application (https://github.com/LeudiX/Simple-Books-API-with-Spring-Boot)
+
 
 ## Description
 
 A simple API for books management with persistence, basic CRUD operations and security, simple centralized error handling mechanism.
+
+Implementing autometrics from https://github.com/jamsiedaly/autometricsj
 
 ## Execution Enviroment
 
@@ -23,3 +26,5 @@ A simple API for books management with persistence, basic CRUD operations and se
 3. Update a book
 4. Delete a book
 5. Find a book by title
+
+
