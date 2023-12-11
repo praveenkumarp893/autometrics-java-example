@@ -22,9 +22,28 @@ Implementing autometrics from https://github.com/jamsiedaly/autometricsj
 ### Actions allowed
 
 1. List all books
-2. Create a book
-3. Update a book
-4. Delete a book
-5. Find a book by title
 
+curl --location 'localhost:8081/api/v1/books'
+
+2. Create a book
+curl --location 'localhost:8081/api/v1/books' \
+--header 'Content-Type: application/json' \
+--data '{
+    "title":"Book3",
+    "author": "Author3"
+}'
+
+3. Delete a book
+
+curl --location --request DELETE 'localhost:8081/api/v1/books/{bookID}'
+
+4. Find a book by title
+
+curl --location 'localhost:8081/api/v1/books/title/{BookTitle}'
+
+### Endpoints
+
+GET localhost:8081/api/v1/books
+
+POST localhost:8081/api/v1/books
 
